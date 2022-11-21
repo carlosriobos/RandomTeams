@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grup Maker</title>
+  </head>
+  <body>
+    <div class="container" id="app">
+      <h1>Group Maker</h1>
+      <div>Generar grupos de:</div>
+      <input id="numOfItems" type="text">
+      <div>
+        <div>Elementos:</div>
+        <textarea id="elements" cols="30" rows="12" placeholder="Introduce cada elemento en una línea"></textarea>
+      </div>
+      <div>
+        <button>Limpiar</button>
+        <button id="groupBtn">Agrupar</button>
+      </div>
+      <div id="finalGroups">...</div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
