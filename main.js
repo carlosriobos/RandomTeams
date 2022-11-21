@@ -1,5 +1,5 @@
 import './style.css'
-import { createRandomGroups } from './utils'
+import { createRandomGroups } from './src/utils'
 
 document.querySelector('#groupBtn').addEventListener('click', handlerGroup)
 

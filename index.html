@@ -4,22 +4,22 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grup Maker</title>
+    <title>Random Teams</title>
   </head>
   <body>
     <div class="container" id="app">
-      <h1>Group Maker</h1>
-      <div>Generar grupos de:</div>
+      <h1>Random Teams</h1>
+      <div>Number of members:</div>
       <input id="numOfItems" type="text">
       <div>
-        <div>Elementos:</div>
-        <textarea id="elements" cols="30" rows="12" placeholder="Introduce cada elemento en una línea"></textarea>
+        <div>Names:</div>
+        <textarea id="elements" cols="30" rows="12" placeholder="Insert each element in one line"></textarea>
       </div>
       <div>
-        <button>Limpiar</button>
-        <button id="groupBtn">Agrupar</button>
+        <button>Reset</button>
+        <button id="groupBtn">Generate</button>
       </div>
-      <div id="finalGroups">...</div>
+      <div id="finalGroups"></div>
     </div>
     <script type="module" src="/main.js"></script>
   </body>
